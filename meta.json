@@ -1,0 +1,26 @@
+{
+  "slug": "katalog-toko-wa",
+  "judul": "Katalog Toko + Checkout WhatsApp",
+  "ringkas": "Katalog toko online statis: cari, filter, varian, keranjang, ongkir per kota, pesanan rapi langsung ke WhatsApp.",
+  "teknologi": ["HTML", "CSS", "JavaScript", "WhatsApp wa.me", "Google Sheets CSV (opsional)"],
+  "kategori": "Aplikasi Web",
+  "tier": "gratis",
+  "fitur": [
+    "Data produk cukup di satu berkas produk.js",
+    "Opsional ambil produk dari Google Sheet",
+    "Cari, filter kategori, urutkan harga",
+    "Detail produk dengan galeri & varian",
+    "Keranjang tersimpan walau halaman ditutup",
+    "Ongkir per kota + batas gratis ongkir",
+    "Pesan WhatsApp terformat rapi",
+    "Mode gelap otomatis & manual",
+    "Siap deploy GitHub Pages / Vercel"
+  ],
+  "cara": [
+    "Ubah nama toko, nomor WA, ongkir di produk.js",
+    "Ganti daftar produk dan gambarnya",
+    "Buka index.html untuk mencoba",
+    "Unggah ke GitHub Pages atau Vercel"
+  ],
+  "demo": "index.html"
+}
