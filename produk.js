@@ -2,7 +2,7 @@
    PENGATURAN TOKO & DATA PRODUK — cukup ubah berkas ini.
    ========================================================= */
 window.TOKO = {
-  nama: 'Rupa Lokal',
+  nama: (window.TEMA && TEMA.nama) || 'Rupa Lokal', // nama toko diambil dari tema.js
   slogan: 'Barang harian buatan perajin lokal',
   // Nomor WhatsApp format internasional tanpa + dan tanpa spasi (62 = Indonesia)
   wa: '6281200001234',
